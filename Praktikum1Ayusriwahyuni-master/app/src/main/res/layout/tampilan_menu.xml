@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/rs"
+            android:onClick="clickrs"
+            android:src="@drawable/rumahsakit"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/kantorpolisi"
+            android:onClick="clickpolisi"
+            android:src="@drawable/kantorpolisi"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/supermarket"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:layout_weight="1"
+            android:onClick="clickbelanja"
+            android:src="@drawable/supermarket" />
+
+        <ImageView
+            android:id="@+id/sekolah"
+            android:onClick="clicksekolah"
+            android:src="@drawable/sekolah"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+</LinearLayout>
